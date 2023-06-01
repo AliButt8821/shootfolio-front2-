@@ -14,7 +14,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col md={3}></Col>
-            <Col md={3} className="justifycontcentsocial">
+            <Col md={3} className="justifycontcentsocial" >
               <Image className="setsocialsizeandspace" src={images.skype} />
               <Image className="setsocialsizeandspace" src={images.whats} />
               <Image className="setsocialsizeandspace" src={images.dribble} />
