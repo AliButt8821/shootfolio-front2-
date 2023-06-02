@@ -20,11 +20,11 @@ const Home = () => {
               <Image className="setsocialsizeandspace" src={images.dribble} />
               <Image className="setsocialsizeandspace" src={images.chat} />
               <Image className="setsocialsizeandspace" src={images.tiktok} />
-              </Col>
-              <Col md={3} className="justifycontcentsocialsecond">
+            </Col>
+            <Col md={3} className="justifycontcentsocialsecond">
               <Image className="setsocialsizeandspace removemargleft" src={images.slack} />
               <Image className="setsocialsizeandspace" src={images.message} />
-              <Image className="setsocialsizeandspaceinsta" src={images.insta}/>
+              <Image className="setsocialsizeandspaceinsta" src={images.insta} />
               <Image className="setsocialsizeandspace" src={images.google} />
             </Col>
             <Col md={3}></Col>
@@ -80,10 +80,10 @@ const Home = () => {
               <div>
                 <Image src={images.sectwo} width="100%"></Image>
                 <p className="sectwohead mt-3">
-                Education and <br></br>Learning Resources
+                  Education and <br></br>Learning Resources
                 </p>
                 <p className="sectwodesc">
-                Shootfolio provides a wealth of educational and learning resources to help you enhance your knowledge of digital assets.
+                  Shootfolio provides a wealth of educational and learning resources to help you enhance your knowledge of digital assets.
                 </p>
                 <button className="sectworeadmore">Learn more</button>
               </div>
@@ -92,10 +92,10 @@ const Home = () => {
               <div>
                 <Image src={images.secthree} width="100%"></Image>
                 <p className="sectwohead mt-3">
-                Real-time Market <br></br>Data and Insights
+                  Real-time Market <br></br>Data and Insights
                 </p>
                 <p className="sectwodesc">
-                Stay ahead with real-time market data and insights on the latest cryptocurrency trends.
+                  Stay ahead with real-time market data and insights on the latest cryptocurrency trends.
                 </p>
                 <button className="sectworeadmore">Learn more</button>
               </div>
@@ -118,7 +118,7 @@ const Home = () => {
       </div>
       <Testimonials/>
       <Getintouch/>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

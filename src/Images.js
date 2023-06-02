@@ -34,10 +34,21 @@ import holdingthree from "../src/Assets/images/holdingthree.png"
 import holdingfour from "../src/Assets/images/holdingfour.png"
 import holdingfive from "../src/Assets/images/holdingfive.png"
 import holdingsix from "../src/Assets/images/holdingsix.png"
+import chrome from "../src/Assets/images/chrome.png"
+import gamehomebg from "../src/Assets/images/gamehomebg.png"
+import gameone from "../src/Assets/images/gameone.png"
+import gametwo from "../src/Assets/images/gametwo.png"
+import gamethree from "../src/Assets/images/gamethree.png"
+import gamefour from "../src/Assets/images/gamefour.png"
+import registergoogle from "../src/Assets/images/registergoogle.png"
+import registerfacebook from "../src/Assets/images/registerfacebook.png"
+
+
 
 
 export const images={
    insta,skype,message,google,slack,tiktok,dribble,whats,chat,secone,sectwo,secthree,secfour,testone,rating,
    testtwo,testthree,footone,foottwo,footthree,footfour,border,borderright,teamone,teamtwo,teamthree,aboutmedone,aboutmedtwo,aboutmedthree,
-   portimg,holdingone,holdingtwo,holdingthree,holdingfour,holdingfive,holdingsix,
+   portimg,holdingone,holdingtwo,holdingthree,holdingfour,holdingfive,holdingsix,chrome,gamehomebg,gameone,gametwo,gamethree,gamefour,
+   registerfacebook,registergoogle,
 }
