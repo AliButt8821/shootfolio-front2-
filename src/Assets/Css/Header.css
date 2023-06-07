@@ -50,8 +50,14 @@
 .vertalign{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-
+.dropdown-menu.show{
+    padding: 30px;
+}
+.removelinefromlogo{
+    text-decoration: none;
+}
 @media only screen and (max-width: 700px) {
     .btn-outline-success {
         border: none;

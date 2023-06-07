@@ -1,9 +1,9 @@
-.herobg{
-    background-image: url(../images/herobg.png);
+.herobggamehome{
+    background-image: url(../../images/gamehomebg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 8% 0%;
-    background-blend-mode: multiply;
+    padding: 11% 0%;
+ 
 }
 .setsocialsizeandspace{
     margin: 0px 15px;
@@ -43,6 +43,9 @@
     color:#B9BABF;
     text-align: center;
 }
+.chromemargright{
+    margin-right: 7px;
+}
 .leftheader, .leftheader:hover{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -68,43 +71,6 @@
     border-radius: 10px;
     background-color: transparent;
     margin-left: 10px;
-}
-.justifybutheadcent{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-}
-.homesecodbg{
-    background-color: #101323;
-    padding: 6% 0%;
-}
-.sectwohead{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 29px;
-    color:rgba(252, 252, 253, 1);
-    text-align: left;
-}
-.sectwodesc{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 27px;
-    color:rgba(185, 186, 191, 1);
-    text-align: left;
-}
-.sectworeadmore{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 19px;
-    color:rgba(42, 119, 65, 1);
-    text-align: left;
-    border: none;
-    padding: 0px;
-    border-radius: 10px;
-    background-color: transparent;
 }
 @media only screen and (max-width: 700px) {
     .margtopmb{

@@ -1,0 +1,67 @@
+.registrationbgblue{
+    background-color: #101323;
+    padding: 10% 0%;
+}
+.registrationheading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    color:#C8C8C8;
+    text-align: center;
+}
+.paddingformregistration{
+    padding: 0px 100px;
+}
+.registrationpagehr{
+ width: 100px;
+ background-color:#BDBDBD;
+ height: 2px;
+}
+.makehrandorinrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.registrationor{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#BDBDBD;
+    text-align: center;
+    margin: 10px;
+}
+.registrationthroughgoogle,.registrationthroughgoogle:hover{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color:#E0E0E0;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #828282;
+    padding: 10px 60px;
+}
+.registrationthroughgoogleaddmorepadding,.registrationthroughgoogleaddmorepadding:hover{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color:#E0E0E0;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #828282;
+    padding: 10px 68px;
+}
+.setregistersocial{
+    margin-right: 15px;
+    width: 22px;
+}
+.makebuttonsincenterregistersociallogin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

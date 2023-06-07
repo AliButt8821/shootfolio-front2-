@@ -15,14 +15,16 @@ button#dropdown-basic:hover, button#dropdown-basic:active, button#dropdown-basic
     background-color: transparent;
 }
 .dropdown-menu.show{
-    background-color: rgba(27, 27, 27, 1);
+    background-color: #1B1B1B;
     border: none;
+    margin-left:-35px;
+    width: 200px;
 }
 a.dropdown-item{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 33px;
     color:rgba(252, 252, 253, 1);
     text-align: left;
 }
@@ -39,5 +41,11 @@ a.dropdown-item{
 @media only screen and (max-width: 700px) {
     .dropdown-toggle {
         padding: 0px;
+    }
+    .dropdown-menu.show{
+        background-color: #1B1B1B;
+        border: none;
+        margin-left:0px;
+        width: 230px;
     }
 }

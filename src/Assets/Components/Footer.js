@@ -8,9 +8,9 @@ const Footer = () => {
         <Container>
             <Row>
                 <Col md={6}>
-                    <p className='footerlogo'>Shootfolio</p>
+                    <a className="removelinefromlogo" href='/'><p className='footerlogo'>Shootfolio</p></a>
                     <p className='footercontacthead'>CONTACT</p>
-                    <p className='footeremail'>shootfolio@gmail.com</p>
+                    <a className="removelinefromlogo" href='mailto:'><p className='footeremail'>shootfolio@gmail.com</p></a>
                 </Col>
                 <Col md={2}>
                     <p className='footheadlist'>Navigation</p>
