@@ -11,7 +11,10 @@ import Gamehome from './Assets/Pages/Game/Gamehome';
 import Exploring from './Assets/Pages/Game/Exploring';
 import Playgame from './Assets/Pages/Game/Playgame';
 import Registration from './Assets/Pages/Game/Registration';
-import Choosinggame from './Assets/Pages/Game/Choosinggame';
+import Gamemode from './Assets/Pages/Game/Gamemode';
+import Payment from './Assets/Pages/Game/Payment'
+import Connect from './Assets/Pages/Game/Connect'
+import Joinleague from './Assets/Pages/Game/Joinleague'
 
 function App() {
   return (
@@ -28,7 +31,11 @@ function App() {
     <Route path='/exploring' element={<Exploring/>}></Route>
     <Route path='/playgame' element={<Playgame/>}></Route>
     <Route path='/registration' element={<Registration/>}></Route>
-    <Route path='/choosinggame' element={<Choosinggame/>}></Route>
+    <Route path='/gamemode' element={<Gamemode/>}></Route>
+    <Route path='/payment' element={<Payment/>}></Route>
+    <Route path='/connect' element={<Connect/>}></Route>
+    <Route path='/joinleague' element={<Joinleague/>}></Route>
+
    </Routes>
    </BrowserRouter>
   );

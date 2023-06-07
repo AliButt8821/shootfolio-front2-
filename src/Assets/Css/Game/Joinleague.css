@@ -1,0 +1,33 @@
+.joinleagueheading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height:42px;
+    color:#C8C8C8;
+    text-align: center;
+}
+.setjoinleaguepadding{
+    padding: 8% 0%;
+}
+.joinleagueform.form-check.form-check-inline {
+    background-color: #FFFFFF1F;
+    padding: 10px 20px !important;
+    color: #6A6F8D;
+    border-radius: 20px;
+
+    margin:10px 12px 10px 0px;
+}
+label.form-check-label{
+    cursor:pointer;
+}
+.form-check{
+    padding-left: 0rem !important;
+}
+.form-check-input[type=radio] {
+display: none;
+}
+@media only screen and (max-width: 700px) {
+    .setjoinleaguepadding{
+        padding: 8% 5%;
+    }
+}

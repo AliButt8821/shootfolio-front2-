@@ -1,0 +1,47 @@
+body{
+    background-color:#101323 ;
+}
+.gamemodebgcolor{
+    background-color: #101323;
+    padding:7.5% 0%;
+}
+.selectgamemodeheading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    color:#C8C8C8;
+    text-align: center;
+}
+.paddingcheckbox{
+    padding: 50px 120px;
+}
+label.form-check-label {
+    color: #858585;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 5px;
+}
+input#default-checkbox {
+    background-color: transparent;
+    border-color: white;
+}
+@media only screen and (max-width: 700px) {
+    .paddingcheckbox{
+        padding: 50px 30px;
+    }
+    .gamemodebgcolor{
+        background-color: #101323;
+        padding:12% 0%;
+    }
+    .selectgamemodeheading{
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        color:#C8C8C8;
+        text-align: center;
+    }
+}

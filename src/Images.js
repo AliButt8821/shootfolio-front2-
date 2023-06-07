@@ -42,13 +42,14 @@ import gamethree from "../src/Assets/images/gamethree.png"
 import gamefour from "../src/Assets/images/gamefour.png"
 import registergoogle from "../src/Assets/images/registergoogle.png"
 import registerfacebook from "../src/Assets/images/registerfacebook.png"
-
-
+import coinmeta from "../src/Assets/images/coinmeta.png"
+import coinprofile from "../src/Assets/images/coinprofile.png"
+import metamask from "../src/Assets/images/metamask.png"
 
 
 export const images={
    insta,skype,message,google,slack,tiktok,dribble,whats,chat,secone,sectwo,secthree,secfour,testone,rating,
    testtwo,testthree,footone,foottwo,footthree,footfour,border,borderright,teamone,teamtwo,teamthree,aboutmedone,aboutmedtwo,aboutmedthree,
    portimg,holdingone,holdingtwo,holdingthree,holdingfour,holdingfive,holdingsix,chrome,gamehomebg,gameone,gametwo,gamethree,gamefour,
-   registerfacebook,registergoogle,
+   registerfacebook,registergoogle,coinmeta,coinprofile,metamask,
 }

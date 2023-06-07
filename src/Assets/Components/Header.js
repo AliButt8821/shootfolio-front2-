@@ -11,7 +11,7 @@ function CollapsibleExample() {
       <Container>
         <Row className="justify">
           <Col md={3} xs={3}>
-            <p className="logohead">Shootfolio</p>
+            <a className="removelinefromlogo" href="/"><p className="logohead">Shootfolio</p></a>
           </Col>
           <Col md={5} xs={4} className="p-0">
             <Form className="d-flex">

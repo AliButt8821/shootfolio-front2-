@@ -1,5 +1,5 @@
 .herobg{
-    background: url(../images/herobg.png) rgba(7, 7, 7, 0.8);
+    background-image: url(../images/herobg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 8% 0%;
