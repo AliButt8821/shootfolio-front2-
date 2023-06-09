@@ -15,7 +15,7 @@ import Gamemode from './Assets/Pages/Game/Gamemode';
 import Payment from './Assets/Pages/Game/Payment'
 import Connect from './Assets/Pages/Game/Connect'
 import Joinleague from './Assets/Pages/Game/Joinleague'
-
+import Profile from './Assets/Pages/Game/Profile'
 function App() {
   return (
    <BrowserRouter>
@@ -35,7 +35,7 @@ function App() {
     <Route path='/payment' element={<Payment/>}></Route>
     <Route path='/connect' element={<Connect/>}></Route>
     <Route path='/joinleague' element={<Joinleague/>}></Route>
-
+    <Route path='/profile' element={<Profile/>}></Route>
    </Routes>
    </BrowserRouter>
   );

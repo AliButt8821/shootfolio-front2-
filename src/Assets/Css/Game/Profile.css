@@ -1,0 +1,117 @@
+.setpaddingprofile{
+    padding: 8% 0%;
+}
+.alliconsinrowprofile{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   width: 200px;
+}
+.iconbgprofile{
+    background-color: #504F4F;
+    width: 40px;
+    border-radius: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #000000;
+    margin-top:-5px;
+    cursor: pointer;
+}
+.iconbgprofile:hover, .iconbgprofile:active{
+    background-color: #2A7741;
+    width: 40px;
+    border-radius: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    margin-top:-5px
+}
+.walletconnectprofile, .walletconnectprofile:hover, .walletconnectprofile:active{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 10px;
+    text-align: center;
+    color:#000000;
+    text-align: center;
+    border:none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #2A7741;
+    padding: 20px 20px;
+}
+.walletprofileconnectbutton{
+    font-size: 20px;
+    margin-right: 8px;
+    color: #000000;
+}
+.makeiconsandbuttonsbothinrowprofile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profilepagedropdown{
+    background-color: #C1C1C1 !important;
+    width: 230px !important;
+    margin-left: -185px !important;
+    margin-top: 20px;
+}
+.profiledropdownitem{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color:#636363 !important;
+    padding: 0px !important;
+    background-color: transparent;
+}
+.profiledropdownitem:hover, .profiledropdownitem:active{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:24px;
+    text-align: left;
+    color:#000000 !important;
+    padding: 4.5px 0px !important;
+    background-color: transparent;
+}
+.makeprofilepicandtextcent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profilename{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:22px;
+    text-align: center;
+    color:#8C8C8C;
+}
+@media only screen and (max-width: 700px) {
+    .profilepagedropdown{
+        background-color: #C1C1C1 !important;
+        width: 230px !important;
+        margin-left: -30px !important;
+        margin-top: 20px;
+    }
+    .alliconsinrowprofile{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 98%;
+     }
+     .margbtnsetformbl{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+     }
+}

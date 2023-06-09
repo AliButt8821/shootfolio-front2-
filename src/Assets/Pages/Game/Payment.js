@@ -5,7 +5,6 @@ import Header from "../../Components/Header";
 import { images } from "../../../Images"
 import Form from 'react-bootstrap/Form';
 
-
 const Payment = () => {
     return (
         <div>

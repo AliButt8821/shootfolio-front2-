@@ -1,0 +1,25 @@
+.tab-rightside{
+    background-color: #434343;
+    padding: 30px;
+    border-radius: 10px;
+    height: 70vh;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:22px;
+    background-color: #2A7741;
+    border-radius: 5px;
+}
+.nav-pills .nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:22px;
+    color:#7B7B7B;
+}
+.tab-content>.active {
+    color: white;
+}
