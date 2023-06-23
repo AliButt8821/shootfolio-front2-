@@ -1,12 +1,20 @@
 .exploringgamesectionbg{
     background-color: #101323;
-    padding: 10% 0%;
+    padding: 8% 0%;
 }
 .Exploringheading{
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 42px;
+    color:#C8C8C8;
+    text-align: center;
+}
+.selectgamemodedesc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
     color:#C8C8C8;
     text-align: center;
 }

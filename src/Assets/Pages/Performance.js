@@ -18,10 +18,7 @@ const Performance = () => {
             <Col md={8}>
               <p className="performanceherohead">Portfolio Performance</p>
               <p className="performancedeschero">
-                Ultrices leo vulputate cras magna id urna mauris tellus
-                consectetur. A duis volutpat sociis arcu, egestas. Ac, nunc
-                aliquet mi viverra turpis lorem. Nisl id arcu fermentum
-                volutpat.
+              Discover the true potential of your investments with Shootfolio's Portfolio Performance page. Track your returns, analyze asset allocation, and optimize your portfolio strategy for maximum growth.
               </p>
             </Col>
             <Col md={2}></Col>

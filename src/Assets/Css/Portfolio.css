@@ -1,8 +1,10 @@
 .ppotfiliohero{
-    background-image: url(../images/porthero.png) ;
+    background: url(../images/porthero.jpg), #1b1b1ba0 ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 10% 0% 15% 0%;
+    background-blend-mode: multiply;
 }
 .portherohead{
     font-family: 'Roboto', sans-serif;
@@ -68,7 +70,9 @@
     border-radius: 10px;
     background-color:#2A7741;
 }
-
+.addpaddingherodesc{
+padding:0px 60px
+}
 @media only screen and (max-width: 700px) {
     .portherohead{
         font-family: 'Roboto', sans-serif;
@@ -78,11 +82,14 @@
         color:rgba(200, 200, 200, 1);
         text-align: center;
     }
+    .addpaddingherodesc{
+        padding:0px 0px
+        }
     .marg-top-desk{
         margin-top:0px;
     }
     .ppotfiliohero{
-        background-image: url(../images/porthero.png) ;
+        background-image: url(../images/porthero.jpg) ;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

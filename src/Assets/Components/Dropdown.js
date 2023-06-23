@@ -11,10 +11,9 @@ function BasicExample() {
       <Dropdown.Menu>
         <Dropdown.Item href="/">Home</Dropdown.Item>
         <Dropdown.Item href="/about">About Us</Dropdown.Item>
+        <Dropdown.Item href="/contact">Contact</Dropdown.Item>
         <Dropdown.Item href="/portfolio">Portfolio</Dropdown.Item>
         <Dropdown.Item href="/performance">Performance</Dropdown.Item>
-        <Dropdown.Item href="/signin">Sign in</Dropdown.Item>
-        <Dropdown.Item href="/signup">Sign up</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );

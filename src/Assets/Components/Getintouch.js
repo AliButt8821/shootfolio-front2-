@@ -16,7 +16,7 @@ const Getintouch = () => {
                     <p className="reachout mt-5">Reach out to us at</p>
                     <div className='justifyformrow'>
                         <div className='makelogoandtextinrow'>
-                        <span className='mailogoform'><AiOutlineMail/></span> <p className='formmail'>contact@homelun</p>
+                        <span className='mailogoform'><AiOutlineMail/></span> <p className='formmail'>support@shootfolio.com</p>
                         </div>
                         <div className='makelogoandtextinrow'>
                         <span className='mailogoform margin-leftform'><BsTelephone/></span><p className='formmail'>+1 234 567 890</p>

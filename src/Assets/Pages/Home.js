@@ -30,25 +30,23 @@ const Home = () => {
             <Col md={3}></Col>
           </Row>
           <Row>
-            <Col md={2}></Col>
-            <Col md={8}>
-              <h1 className="heroheadcent mt-3">
-                Discover the World of Digital<br></br> Assets with Shootfolio
+            <Col md={1}></Col>
+            <Col md={10}>
+              <h1 className="heroheadcenthomemain mt-3">
+              Discover the World of Digital Assets with Shootfolio - Your Ultimate Learning and Investment Platform
               </h1>
             </Col>
-            <Col md={2}></Col>
+            <Col md={1}></Col>
           </Row>
           <Row>
-            <Col md={3}></Col>
-            <Col md={6}>
+            <Col md={2}></Col>
+            <Col md={8}>
               <p className="herodesc mt-2">
-                Welcome to Shootfolio, the all-in-one platform for learning
-                about and managing digital assets. With our comprehensive
-                educational resources and advanced portfolio management tools,
-                you can easily grow your knowledge and wealth.
+              Welcome to Shootfolio, the all-in-one platform for learning about and managing digital assets. With our comprehensive educational resources and advanced portfolio management tools, you can easily grow your knowledge and wealth.<br></br>Get started today by signing up for our platform and taking control of your financial future.
+
               </p>
             </Col>
-            <Col md={3}></Col>
+            <Col md={2}></Col>
           </Row>
           <Row className="mt-3">
             <Col md={4}></Col>
@@ -63,52 +61,38 @@ const Home = () => {
       <div className="homesecodbg">
         <Container>
           <Row>
-            <Col md={3}>
+            <Col md={4}>
               <div>
-                <Image src={images.secone} width="100%"></Image>
+                <Image className="makehomeportborderradius" src={images.secone} width="100%"></Image>
                 <p className="sectwohead mt-3">
                   Comprehensive <br></br>Portfolio Tracking
                 </p>
                 <p className="sectwodesc">
-                  Easily track all of your cryptocurrency investments in one
-                  place with our comprehensive portfolio tracking feature.
+                Easily track all of your cryptocurrency investments in one place with our comprehensive portfolio tracking feature. Stay up-to-date on your portfolio's performance and make informed decisions based on advanced analytics and performance metrics.
                 </p>
                 <button className="sectworeadmore">Learn more</button>
               </div>
             </Col>
-            <Col md={3} className="margtopmb">
+            <Col md={4} className="margtopmb">
               <div>
-                <Image src={images.sectwo} width="100%"></Image>
+                <Image className="makehomeportborderradius" src={images.sectwo} width="100%"></Image>
                 <p className="sectwohead mt-3">
                   Education and <br></br>Learning Resources
                 </p>
                 <p className="sectwodesc">
-                  Shootfolio provides a wealth of educational and learning resources to help you enhance your knowledge of digital assets.
+                Shootfolio provides a wealth of educational and learning resources to help you enhance your knowledge of digital assets. From beginner to advanced topics, our platform offers a range of resources to help you become a more informed investor.
                 </p>
                 <button className="sectworeadmore">Learn more</button>
               </div>
             </Col>
-            <Col md={3} className="margtopmb">
+            <Col md={4} className="margtopmb">
               <div>
-                <Image src={images.secthree} width="100%"></Image>
+                <Image className="makehomeportborderradius" src={images.secthree} width="100%"></Image>
                 <p className="sectwohead mt-3">
                   Real-time Market <br></br>Data and Insights
                 </p>
                 <p className="sectwodesc">
-                  Stay ahead with real-time market data and insights on the latest cryptocurrency trends.
-                </p>
-                <button className="sectworeadmore">Learn more</button>
-              </div>
-            </Col>
-            <Col md={3} className="margtopmb">
-              <div>
-                <Image src={images.secfour} width="100%"></Image>
-                <p className="sectwohead mt-3">
-                  Comprehensive <br></br>Portfolio Tracking
-                </p>
-                <p className="sectwodesc">
-                  Easily track all of your cryptocurrency investments in one
-                  place with our comprehensive portfolio tracking feature.
+                Stay ahead with real-time market data and insights on the latest cryptocurrency trends. Our advanced analytics and tools provide valuable insights into market movements and allow you to make informed decisions about your investments.
                 </p>
                 <button className="sectworeadmore">Learn more</button>
               </div>

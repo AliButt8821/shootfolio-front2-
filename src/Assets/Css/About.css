@@ -2,6 +2,14 @@
     background-color: #101323;
     padding: 5% 0%;
 }
+.aboutherobg{
+    background: url(../images/abouthero.png), #1b1b1b9c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 8% 0%;
+    background-blend-mode: multiply;
+}
 .ourjourneysofar{
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
@@ -162,6 +170,22 @@
     color: rgba(42, 119, 65, 1);
     font-size: 22px;
 }
+.alignaboutimageend{
+    display: flex;
+    justify-content: end;
+}
+.makecontentaboutaligncenter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutculturebuttonaligncenter{
+    display: flex;
+    align-items: center;
+}
+.aboutblogborderradius{
+    border-radius: 20px;
+}
 @media only screen and (max-width: 700px) {
     .yearabout{
         font-family: 'Roboto', sans-serif;
@@ -216,5 +240,8 @@
     .slick-dots li button:before{
         font-size: 10px;
         color: rgba(42, 119, 65, 1);
+    }
+    .makeimageaboutwidth100onmbl{
+        width: 100%;
     }
 }

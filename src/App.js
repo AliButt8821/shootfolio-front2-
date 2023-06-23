@@ -1,21 +1,25 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from "../src/Assets/Pages/Home"
+import Home from "../src/Assets/Pages/Home";
 import About from './Assets/Pages/About';
 import Portfolio from './Assets/Pages/Portfolio';
-import Login from './Assets/Pages/Login'
+import Login from './Assets/Pages/Login';
 import Signup from './Assets/Pages/Signup';
-import Forget from './Assets/Pages/Forget'
-import Performance from "./Assets/Pages/Performance"
+import Forget from './Assets/Pages/Forget';
+import Performance from "./Assets/Pages/Performance";
 import Gamehome from './Assets/Pages/Game/Gamehome';
 import Exploring from './Assets/Pages/Game/Exploring';
 import Playgame from './Assets/Pages/Game/Playgame';
-import Registration from './Assets/Pages/Game/Registration';
 import Gamemode from './Assets/Pages/Game/Gamemode';
-import Payment from './Assets/Pages/Game/Payment'
-import Connect from './Assets/Pages/Game/Connect'
-import Joinleague from './Assets/Pages/Game/Joinleague'
-import Profile from './Assets/Pages/Game/Profile'
+import Joinleague from './Assets/Pages/Game/Joinleague';
+import Profile from './Assets/Pages/Game/Profile';
+import Portfoliocreation from './Assets/Pages/Game/Portfoliocreation';
+import Contact from './Assets/Pages/Contact';
+import Joinclub from './Assets/Pages/Game/Joinclub';
+import Play from './Assets/Pages/Game/Play';
+
+
+
 function App() {
   return (
    <BrowserRouter>
@@ -30,12 +34,13 @@ function App() {
     <Route path='/gamehome' element={<Gamehome/>}></Route>
     <Route path='/exploring' element={<Exploring/>}></Route>
     <Route path='/playgame' element={<Playgame/>}></Route>
-    <Route path='/registration' element={<Registration/>}></Route>
     <Route path='/gamemode' element={<Gamemode/>}></Route>
-    <Route path='/payment' element={<Payment/>}></Route>
-    <Route path='/connect' element={<Connect/>}></Route>
     <Route path='/joinleague' element={<Joinleague/>}></Route>
     <Route path='/profile' element={<Profile/>}></Route>
+    <Route path='/portfoliocreation' element={<Portfoliocreation/>}></Route>
+    <Route path='/contact' element={<Contact/>}></Route>
+    <Route path='/joinclub' element={<Joinclub/>}></Route>
+    <Route path='/play' element={<Play/>}></Route>
    </Routes>
    </BrowserRouter>
   );

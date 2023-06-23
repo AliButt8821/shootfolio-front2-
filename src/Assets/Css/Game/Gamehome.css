@@ -1,9 +1,10 @@
 .herobggamehome{
-    background-image: url(../../images/gamehomebg.png);
+    background: url(../../images/gamehomebg.png), #1b1b1ba0;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 11% 0%;
- 
+    background-position: center;
+    background-blend-mode: multiply;
 }
 .setsocialsizeandspace{
     margin: 0px 15px;
@@ -46,7 +47,7 @@
 .chromemargright{
     margin-right: 7px;
 }
-.leftheader, .leftheader:hover{
+.leftheader, .leftheader:hover, .leftheader:active{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 600;

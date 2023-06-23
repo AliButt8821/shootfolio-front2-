@@ -1,67 +1,82 @@
 import React from 'react'
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "../../Css/Game/Joinleague.css"
 import Header from "../../Components/Header";
-import Form from 'react-bootstrap/Form';
 const Joinleague = () => {
     return (
         <div>
             <Header />
-            <Container className='setjoinleaguepadding'>
-                <Row>
-                    <Col md={3}></Col>
-                    <Col md={6}>
-                        <p className='joinleagueheading'>Join League</p>
-                        <Form>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlSelect">
-                                <Form.Label className='selectlablel mt-4'>Define league type</Form.Label>
-                                <Form.Select className='selectcoinselect' aria-label="Select coin">
-                                    <option >Crypto Amateur Learners League</option>
-                                    <option value="2">Crypto Beginner Learners League</option>
-                                    <option value="3">Crypto Advanced Advisors League</option>
-                                    <option value="4">Crypto Professional Advisors League </option>
-                                </Form.Select>
-                            </Form.Group>
-                            <Form.Group className="mb-3 mt-5" controlId="exampleForm.ControlRadio">
-                                {['radio'].map((type) => (
-                                    <div key={`inline-${type}`} className="mb-3">
-                                        <Form.Check className='joinleagueform'
-                                            inline
-                                            label="Amateur | $10,000"
-                                            name="group1"
-                                            type={type}
-                                            id={`inline-${type}-1`}
-                                        />
-                                        <Form.Check className='joinleagueform'
-                                            
-                                            label="Expert | $2,000"
-                                            inline
-                                            name="group1"
-                                            type={type}
-                                            id={`inline-${type}-2`}
-                                        />
-                                        <Form.Check className='joinleagueform'
-                                            inline
-                                            label="Pro | $10,000"
-                                            name="group1"
-                                            type={type}
-                                            id={`inline-${type}-3`}
-                                        />
-                                        <Form.Check className='joinleagueform'
-                                            inline
-                                            label="Super | $10,000"
-                                            name="group1"
-                                            type={type}
-                                            id={`inline-${type}-4`}
-                                        />
+            <div className='setjoinleaguepadding'>
+                <Container>
+                    <Row>
+                        <Col md={3}></Col>
+                        <Col md={6} className='makeradiocenter'>
+                            <p className='joinleagueheading'>Join the Exciting League</p>
+                            <p className='joinleaguedescriptionhead'>Compete with the Best in the Crypto World</p>
+                        </Col>
+                        <Col md={3}></Col>
+                    </Row>
+                    <Row className='mt-4'>
+                        <Col md={1}></Col>
+                        <Col md={10} className='makeleaguescenterincolten'>
+                            <Col md={4}>
+                                <div className='leaguebg'>
+                                    <p className='leaguetitle'>Crypto Amateur Learners<br></br> League</p>
+                                    <div className='leaguecategory mt-3'>
+                                        <p className='categorytitleleague'>Category</p>
+                                        <p className='leaguecategoryitself'>Amateur</p>
                                     </div>
-                                ))}
-                            </Form.Group>
-                        </Form>
-                    </Col>
-                    <Col md={3}></Col>
-                </Row>
-            </Container>
+                                    <div className='leaguecategory mt-3'>
+                                        <p className='categorytitleleague'>Funds</p>
+                                        <p className='leaguecategoryitself'>$10,000</p>
+                                    </div>
+                                    <Button className='selectleaguebutton mt-2' href="/portfoliocreation">Select</Button>
+                                </div>
+                            </Col>
+                            <Col md={4}>
+                                <div className='leaguebg'>
+                                    <p className='leaguetitle'>Crypto Amateur Learners<br></br> League</p>
+                                    <div className='leaguecategory mt-3'>
+                                        <p className='categorytitleleague'>Category</p>
+                                        <p className='leaguecategoryitself'>Amateur</p>
+                                    </div>
+                                    <div className='leaguecategory mt-3'>
+                                        <p className='categorytitleleague'>Funds</p>
+                                        <p className='leaguecategoryitself'>$10,000</p>
+                                    </div>
+                                    <Button className='selectleaguebutton mt-2' href="/portfoliocreation">Select</Button>
+                                </div>
+                            </Col>
+                            <Col md={4}>
+                                <div className='leaguebg'>
+                                    <p className='leaguetitle'>Crypto Amateur Learners<br></br> League</p>
+                                    <div className='leaguecategory mt-3'>
+                                        <p className='categorytitleleague'>Category</p>
+                                        <p className='leaguecategoryitself'>Amateur</p>
+                                    </div>
+                                    <div className='leaguecategory mt-3'>
+                                        <p className='categorytitleleague'>Funds</p>
+                                        <p className='leaguecategoryitself'>$10,000</p>
+                                    </div>
+                                    <Button className='selectleaguebutton mt-2' href="/portfoliocreation">Select</Button>
+                                </div>
+                            </Col>
+                        </Col>
+                        <Col md={1}></Col>
+                    </Row>
+                    <Row>
+                        <Col md={3}></Col>
+                        <Col md={6}>
+                        <p className='joinleaguedescriptionhead mt-5'>Please note that players without a subscription cannot join the Crypto Super League and Crypto Expert League.</p>
+                            <div className='makeleaguebottombutcent mt-5'>
+                                <Button className='underjoinleaguebutton'>Crypto Super League </Button>
+                                <Button className='underjoinleaguebutton margtopleaguembl'>Crypto Expert League </Button>
+                            </div>
+                        </Col>
+                        <Col md={3}></Col>
+                    </Row>
+                </Container>
+            </div>
         </div>
     )
 }

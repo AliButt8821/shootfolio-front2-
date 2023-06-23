@@ -10,11 +10,11 @@ import chat from "../src/Assets/images/chat.png"
 import secone from "../src/Assets/images/secone.png"
 import sectwo from "../src/Assets/images/sectwo.png"
 import secthree from "../src/Assets/images/secthree.png"
-import secfour from "../src/Assets/images/secfour.png"
 import testone from "../src/Assets/images/testone.png"
 import rating from "../src/Assets/images/rating.png"
 import testtwo from "../src/Assets/images/testtwo.png"
 import testthree from "../src/Assets/images/testthree.png"
+import testfour from "../src/Assets/images/testfour.png"
 import footone from "../src/Assets/images/footone.png"
 import foottwo from "../src/Assets/images/foottwo.png"
 import footthree from "../src/Assets/images/footthree.png"
@@ -45,11 +45,30 @@ import registerfacebook from "../src/Assets/images/registerfacebook.png"
 import coinmeta from "../src/Assets/images/coinmeta.png"
 import coinprofile from "../src/Assets/images/coinprofile.png"
 import metamask from "../src/Assets/images/metamask.png"
-
+import playerone from "../src/Assets/images/playerone.png"
+import playertwo from "../src/Assets/images/playertwo.png"
+import playerthree from "../src/Assets/images/playerthree.png"
+import playerfour from "../src/Assets/images/playerfour.png"
+import playerfive from "../src/Assets/images/playerfive.png"
+import contvector from "../src/Assets/images/contvector.png"
+import aboutjourney from "../src/Assets/images/aboutjourney.png"
+import aboutculture from "../src/Assets/images/aboutculture.png"
+import awardone from "../src/Assets/images/awardone.png"
+import awardtwo from "../src/Assets/images/awardtwo.png"
+import awardthree from "../src/Assets/images/awardthree.png"
+import awardfour from "../src/Assets/images/awardfour.png"
+import clubone from "../src/Assets/images/clubone.png"
+import clubtwo from "../src/Assets/images/clubtwo.png"
+import clubassets from "../src/Assets/images/clubassets.png"
+import playbtone from "../src/Assets/images/playbtone.png"
+import playbttwo from "../src/Assets/images/playbttwo.png"
+import playbtthree from "../src/Assets/images/playbtthree.png"
+import playbtfour from "../src/Assets/images/playbtfour.png"
 
 export const images={
-   insta,skype,message,google,slack,tiktok,dribble,whats,chat,secone,sectwo,secthree,secfour,testone,rating,
-   testtwo,testthree,footone,foottwo,footthree,footfour,border,borderright,teamone,teamtwo,teamthree,aboutmedone,aboutmedtwo,aboutmedthree,
+   insta,skype,message,google,slack,tiktok,dribble,whats,chat,secone,sectwo,secthree,testone,rating,
+   testtwo,testthree,testfour,footone,foottwo,footthree,footfour,border,borderright,teamone,teamtwo,teamthree,aboutmedone,aboutmedtwo,aboutmedthree,
    portimg,holdingone,holdingtwo,holdingthree,holdingfour,holdingfive,holdingsix,chrome,gamehomebg,gameone,gametwo,gamethree,gamefour,
-   registerfacebook,registergoogle,coinmeta,coinprofile,metamask,
+   registerfacebook,registergoogle,coinmeta,coinprofile,metamask,playerone,playertwo,playerthree,playerfour,playerfive,contvector,
+   aboutjourney,aboutculture,awardone,awardtwo,awardthree,awardfour,clubone,clubtwo,clubassets,playbtone,playbttwo,playbtthree,playbtfour,
 }

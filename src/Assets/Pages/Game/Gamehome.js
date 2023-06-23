@@ -3,7 +3,6 @@ import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "../../Css/Game/Gamehome.css"
 import Header from "../../Components/Header";
 import { images } from "../../../Images";
-import Footer from "../../Components/Footer";
 const Gamehome = () => {
   return (
     <div>
@@ -40,7 +39,7 @@ const Gamehome = () => {
             <Col md={3}></Col>
             <Col md={6}>
               <p className="herodesc mt-2">
-              Compliment interested discretion estimating on stimulated apartments oh. Dear so sing when in find read of call. As distrusts behaviou.
+              Join us on an exhilarating journey into the world of digital assets. Shootfolio is your gateway to explore, learn, and invest in cryptocurrencies. Gain valuable insights, track market trends, and make informed investment decisions with our comprehensive platform. Start your adventure today and unlock the potential of digital assets. Welcome to Shootfolio, where opportunity awaits.
               </p>
             </Col>
             <Col md={3}></Col>
@@ -48,14 +47,13 @@ const Gamehome = () => {
           <Row className="mt-3">
             <Col md={4}></Col>
             <Col md={4} className="justifybutheadcent">
-              <Button className="leftheader"><Image className='chromemargright' src={images.chrome} width="20px"/>Open Shootfolio</Button>
+              <Button className="leftheader" href="/playgame"><Image className='chromemargright' src={images.chrome} width="20px"/>Open Shootfolio</Button>
               <Button className="rightheaderbutton">Learn More</Button>
             </Col>
             <Col md={4}></Col>
           </Row>
         </Container>
       </div>
-      <Footer/>
     </div>
   )
 }
