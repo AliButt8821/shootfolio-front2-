@@ -111,6 +111,11 @@
     border-radius: 20px;
 }
 @media only screen and (max-width: 700px) {
+    .heroheadcenthomemain{
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        line-height: 35px;
+    }
     .margtopmb{
     margin-top:40px
 }

@@ -8,7 +8,6 @@ import Signup from './Assets/Pages/Signup';
 import Forget from './Assets/Pages/Forget';
 import Performance from "./Assets/Pages/Performance";
 import Gamehome from './Assets/Pages/Game/Gamehome';
-import Exploring from './Assets/Pages/Game/Exploring';
 import Playgame from './Assets/Pages/Game/Playgame';
 import Gamemode from './Assets/Pages/Game/Gamemode';
 import Joinleague from './Assets/Pages/Game/Joinleague';
@@ -32,7 +31,6 @@ function App() {
     <Route path='/forget' element={<Forget/>}></Route>
     <Route path='/performance' element={<Performance/>}></Route>
     <Route path='/gamehome' element={<Gamehome/>}></Route>
-    <Route path='/exploring' element={<Exploring/>}></Route>
     <Route path='/playgame' element={<Playgame/>}></Route>
     <Route path='/gamemode' element={<Gamemode/>}></Route>
     <Route path='/joinleague' element={<Joinleague/>}></Route>

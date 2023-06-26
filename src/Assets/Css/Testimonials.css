@@ -25,7 +25,7 @@
     display: flex;
     border-radius: 20px;
     flex-direction: column;
-    margin: 20px;
+    margin: 15px;
 }
 .setimagetestborder{
     border-radius: 50%;
@@ -83,5 +83,14 @@
     line-height: 40px;
     color:rgba(193, 193, 193, 1);
     text-align: center;
+}
+.testbg{
+    background-color: #101323;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    margin: 0px;
 }
 }
