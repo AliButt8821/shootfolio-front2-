@@ -16,6 +16,26 @@
     align-items: center;
     width: 90%;
 }
+.leftplaybuttonhover{
+    background-color:#ffffff41;
+    padding: 10px 30px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    width: 90%;
+}
+.leftplaybuttonhover:hover{
+    background-color:#2A7741;
+    padding: 10px 30px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
 .playrank{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -46,16 +66,18 @@
 .maketimeinrowplayground{
     display: flex;
     flex-direction: row;
+    gap:8px;
+    margin: 0px;
     justify-content: space-between;
 }
 .tmplayground{
     background-color: #7CC2ED;
-    padding: 5px 25px;
+    padding: 5px 18px;
     border-radius: 5px;
 }
-.zhplaygrounf{
+.zhplayground{
     background-color: #70AD47;
-    padding: 5px 25px;
+    padding: 5px 18px;
     border-radius: 5px;
 }
 .timetextplayground{
@@ -69,7 +91,7 @@
 }
 .timehour{
     background: linear-gradient(180deg, #797979 0%, rgba(255, 255, 255, 0.901042) 0.01%, rgba(169, 169, 169, 0.952396) 68.54%, #585858 100%);
-    padding: 10px 32px;
+    padding: 10px 25px;
     margin-top: 15px;
     border-radius: 5PX;
 }
@@ -134,8 +156,12 @@
     margin: 0px;
     padding: 0px;
 }
-.playerclickpopupbutton,.playerclickpopupbutton:hover{
+.playerclickpopupbutton{
     background-color: transparent;
+    border: none;
+}
+.playerclickpopupbutton:hover{
+    background-color: rgba(42, 119, 65, 1);
     border: none;
 }
 .exchangepopuptextfield{

@@ -12,26 +12,26 @@ const Play = () => {
             <Container>
                 <Row>
                     <Col md={2}>
-                        <Button className='leftplaybutton'>
+                        <div className='leftplaybutton'>
                             <Image src={images.playbtone} />
                             <p className='playrank'>+26.00%</p>
-                        </Button>
-                        <Button className='leftplaybutton mt-3'>
+                        </div>
+                        <div className='leftplaybutton mt-3'>
                             <Image src={images.playbttwo} />
                             <p className='playrank'>+0.01%</p>
-                        </Button>
-                        <Button className='leftplaybutton mt-3'>
+                        </div>
+                        <div className='leftplaybutton mt-3'>
                             <Image src={images.playbtthree} />
                             <p className='playrankred'>-3.32%</p>
-                        </Button>
-                        <Button className='leftplaybutton mt-3'>
+                        </div>
+                        <div className='leftplaybutton mt-3'>
                             <Image src={images.playbtfour} />
                             <p className='playrankred'>-16.38%</p>
-                        </Button>
-                        <Button className='leftplaybutton mt-3'>
+                        </div>
+                        <div className='leftplaybutton mt-3'>
                             <Image src={images.playbtone} />
                             <p className='playrank'>+26.00%</p>
-                        </Button>
+                        </div>
                     </Col>
                     <Col md={3}></Col>
                     <Col md={2}>
@@ -39,7 +39,7 @@ const Play = () => {
                             <div className='tmplayground'>
                                 <p className='timetextplayground'>TM-01</p>
                             </div>
-                            <div className='zhplaygrounf'>
+                            <div className='zhplayground'>
                                 <p className='timetextplayground'>ZH-09</p>
                             </div>
                         </div>
@@ -48,29 +48,29 @@ const Play = () => {
                                 <p className='hourplayground'>03</p>
                             </div>
                             <div className='timehour'>
-                                <p className='hourplayground'>45</p>
+                                <p className='hourplayground'>05</p>
                             </div>
                         </div>
                     </Col>
                     <Col md={3}></Col>
                     <Col md={2}>
-                        <Button className='leftplaybutton' onClick={() => setButtonPopupEx(true)}>
+                        <Button className='leftplaybuttonhover' onClick={() => setButtonPopupEx(true)}>
                             <p className='playrankwhite'>$336,1.00</p>
                             <Image src={images.playbtone} />
                         </Button>
-                        <Button className='leftplaybutton mt-3' onClick={() => setButtonPopupEx(true)}>
+                        <Button className='leftplaybuttonhover mt-3' onClick={() => setButtonPopupEx(true)}>
                             <p className='playrankwhite'>$7,836.00</p>
                             <Image src={images.playbttwo} />
                         </Button>
-                        <Button className='leftplaybutton mt-3' onClick={() => setButtonPopupEx(true)}>
+                        <Button className='leftplaybuttonhover mt-3' onClick={() => setButtonPopupEx(true)}>
                             <p className='playrankwhite'>$336,1.00</p>
                             <Image src={images.playbtthree} />
                         </Button>
-                        <Button className='leftplaybutton mt-3' onClick={() => setButtonPopupEx(true)}>
+                        <Button className='leftplaybuttonhover mt-3' onClick={() => setButtonPopupEx(true)}>
                             <p className='playrankwhite'>$7,836.00</p>
                             <Image src={images.playbtfour} />
                         </Button>
-                        <Button className='leftplaybutton mt-3' onClick={() => setButtonPopupEx(true)}>
+                        <Button className='leftplaybuttonhover mt-3' onClick={() => setButtonPopupEx(true)}>
                             <p className='playrankwhite'>$336,1.00</p>
                             <Image src={images.playbtone} />
                         </Button>
