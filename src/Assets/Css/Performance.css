@@ -3,11 +3,12 @@
 }
 
 .performanceherobg {
-    background-image: url(../images/performance.png);
+    background: url(../images/performance.jpg), #1b1b1ba9;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 12.5% 0%;
+    background-blend-mode: multiply;
 }
 
 .performanceherohead {
@@ -50,7 +51,7 @@
     text-align: center;
 }
 .padlrhold{
-    padding: 0pc 130px;
+    padding: 0px 130px;
 }
 /* Bar chart */
 path#SvgjsPath1370.apexcharts-bar-area {

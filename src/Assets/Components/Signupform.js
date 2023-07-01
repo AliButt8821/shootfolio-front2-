@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
+import {Button} from "react-bootstrap"
 import "../Css/Loginform.css";
 const Signupform = () => {
   return (
@@ -9,14 +10,14 @@ const Signupform = () => {
           <Form.Control
             className="makefieldgightmore"
             type="text"
-            placeholder="Name"
+            placeholder=" Name"
           />
         </Form.Group>
         <Form.Group className="mb-3 " controlId="formBasicText">
           <Form.Control
             className="makefieldgightmore"
             type="text"
-            placeholder="Last Name"
+            placeholder="User Name"
           />
         </Form.Group>
 
@@ -36,9 +37,9 @@ const Signupform = () => {
         </Form.Group>
 
         <div className="makesignupbtncenter">
-          <button className="formsubmitbutton" type="submit">
+          <Button href="/signin" className="formsubmitbutton" type="submit">
             Submit
-          </button>
+          </Button>
         </div>
       </Form>
     </div>

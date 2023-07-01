@@ -52,11 +52,12 @@ select > option{
 }
 .selectamountlablel{
     background-color: transparent;
-    color: #4F4F4F;
+    color: #C8C8C8;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+    margin-bottom: 20px;
 }
 .addpaddinbetweenpayments{
     padding: 0px 70px;
@@ -64,6 +65,19 @@ select > option{
 .addlinebetwee{
     border-right: 1px solid #383A49;
     height: 20%;
+}
+.selectpopupbutton, .selectpopupbutton:hover{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color:black;
+    text-align: center;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: rgba(42, 119, 65, 1);
+    margin-right: 10px;
 }
 @media only screen and (max-width: 700px) {
     .selectheadandimginline{

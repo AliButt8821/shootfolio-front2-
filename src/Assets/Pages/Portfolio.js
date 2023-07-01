@@ -16,7 +16,7 @@ const Portfolio = () => {
                     <Col md={3}></Col>
                     <Col md={6}>
                     <p className='portherohead'>My Portfolio</p>
-                    <p className='portherodesc'>Ultrices leo vulputate cras magna id urna mauris tellus consectetur. A duis volutpat sociis arcu, egestas. Ac, nunc aliquet mi viverra turpis lorem. Nisl id arcu fermentum volutpat.</p>
+                    <p className='portherodesc addpaddingherodesc'>Stay on top of your crypto portfolio with Shootfolio. Our easy-to-use platform lets you track your investments, view performance metrics, and make informed decisions.</p>
                     </Col>
                     <Col md={3}></Col>
                 </Row>

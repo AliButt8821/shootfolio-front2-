@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
+import Button from "react-bootstrap/Button"
 import "../Css/Loginform.css"
 const Loginform = () => {
     return (
@@ -14,9 +15,9 @@ const Loginform = () => {
                 </Form.Group>
                 <div className='makebtnsinrow'>
                     <div className='submitbtn'>
-                        <button className='formsubmitbutton' type="submit">
+                        <Button className='formsubmitbutton' type="submit" href="/gamehome">
                             Submit
-                        </button>
+                        </Button>
                     </div>
                     <div className='forgetbtn'>
                         <a className='forgetbtnloginform' href='/forget'>Forgot Password?</a>

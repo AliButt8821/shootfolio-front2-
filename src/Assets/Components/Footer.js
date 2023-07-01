@@ -10,19 +10,22 @@ const Footer = () => {
                 <Col md={6}>
                     <a className="removelinefromlogo" href='/'><p className='footerlogo'>Shootfolio</p></a>
                     <p className='footercontacthead'>CONTACT</p>
-                    <a className="removelinefromlogo" href='mailto:'><p className='footeremail'>shootfolio@gmail.com</p></a>
+                    <a className="removelinefromlogo" href='mailto:'><p className='footeremail'>support@shootfolio.com</p></a>
+                </Col>
+                <Col md={2}>
+                {/* <p className='footheadlist'>Resources</p>
+                    <div className='makefooteroptiocolumn'>
+                    <a className='footlist'>Blog</a>
+                    <a className='footlist'>Product Updates</a>
+                    </div> */}
                 </Col>
                 <Col md={2}>
                     <p className='footheadlist'>Navigation</p>
-                    <p className='footlist mt-4'>Home</p>
-                    <p className='footlist'>about</p>
-                    <p className='footlist'>Faqs</p>
-                    <p className='footlist'>Termsof Service</p>
-                </Col>
-                <Col md={2}>
-                    <p className='footheadlist'>Resources</p>
-                    <p className='footlist mt-4'>Blog</p>
-                    <p className='footlist'>Product Updates</p>
+                    <div className='makefooteroptiocolumn'>
+                    <a className='footlist' href="/">Home</a>
+                    <a className='footlist' href="/about">About</a>
+                    <a className='footlist' href="/contact">Contact</a>
+                    </div>
                 </Col>
                 <Col md={2}>
                     <p className='footheadlist'>Stay up to date</p>

@@ -46,13 +46,16 @@ import {images} from "../../Images"
     <div>
         <Slider {...settings}>
           <div>
-            <Image src={images.aboutmedone} width="97%"/>
+            <Image src={images.awardone} width="97%"/>
           </div>
           <div>
-          <Image src={images.aboutmedtwo} width="97%"/>
+          <Image src={images.awardtwo} width="97%"/>
           </div>
           <div>
-          <Image src={images.aboutmedthree} width="97%"/>
+          <Image src={images.awardthree} width="97%"/>
+          </div>
+          <div>
+          <Image src={images.awardfour} width="97%"/>
           </div>
         </Slider>
     </div>

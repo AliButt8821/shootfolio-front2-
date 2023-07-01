@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div>
       <Header />
-      <div className="herobg">
+      <div className="aboutherobg">
         <Container>
           <Row>
             <Col md={2}></Col>
@@ -24,10 +24,7 @@ const About = () => {
             <Col md={3}></Col>
             <Col md={6}>
               <p className="herodesc mt-2">
-                At Shootfolio, everyone should have access to the knowledge and
-                tools they need to succeed in the world of digital assets. Our
-                platform provides comprehensive resources and tools for those
-                looking to learn about and invest in cryptocurrencies.
+              At Shootfolio, everyone should have access to the knowledge and tools they need to succeed in the world of digital assets. Our platform provides comprehensive resources and tools for those looking to learn about and invest in cryptocurrencies.
               </p>
             </Col>
             <Col md={3}></Col>
@@ -45,19 +42,18 @@ const About = () => {
       <div className="aboutsecondbgblue">
         <Container>
           <Row>
-            <Col md={6}>
+            <Col md={6} className="makecontentaboutaligncenter">
               <p className="ourjourneysofar">Our Journey So Far</p>
               <p className="journeydesc">
-                Shootfolio was founded in 2020 by a group of passionate digital
-                asset investors who saw the need for a comprehensive platform
-                that provides users with the tools and knowledge they need to
-                succeed in the fast-paced world of cryptocurrencies. Since then,
-                we have become a trusted resource for individuals and businesses
-                looking to invest in digital assets.
+              Shootfolio was founded in 2020 by a group of passionate digital asset investors who saw the need for a comprehensive platform that provides users with the tools and knowledge they need to succeed in the fast-paced world of cryptocurrencies. Since then, we have become a trusted resource for individuals and businesses looking to invest in digital assets.
               </p>
+              <div className="aboutculturebuttonaligncenter">
               <button className="aboutlearnmore mt-4">Learn More</button>
+              </div> 
             </Col>
-            <Col md={6}></Col>
+            <Col md={6} className="alignaboutimageend">
+              <Image className="makeimageaboutwidth100onmbl" src={images.aboutjourney} width="80%"/>
+            </Col>
           </Row>
           <Row className="margabouttop100">
             <Col md={5} xs={10} className="removepad-right">
@@ -191,16 +187,11 @@ const About = () => {
         <Container>
           <Row>
             <Col md={6}>
-              <p className="ourteamhead">Our Team</p>
+              <p className="ourteamhead">Meet Our Team</p>
             </Col>
             <Col md={6}>
               <p className="ourteamdesc">
-                Our team comprises experienced digital asset investors,
-                technologists, and industry experts passionate about helping our
-                users succeed. With diverse backgrounds and skillsets, we bring
-                a wealth of knowledge and expertise to the Shootfolio platform.
-                Get to know our team and learn how they can help you achieve
-                your investment goals.
+              Our team comprises experienced digital asset investors, technologists, and industry experts passionate about helping our users succeed. With diverse backgrounds and skillsets, we bring a wealth of knowledge and expertise to the Shootfolio platform. Get to know our team and learn how they can help you achieve your investment goals.
               </p>
             </Col>
           </Row>
@@ -267,64 +258,18 @@ const About = () => {
       <div className="aboutsecondbgblue">
         <Container>
           <Row>
-            <Col md={6}>
+            <Col md={6} className="makecontentaboutaligncenter">
               <p className="ourjourneysofar">A Collaborative Culture</p>
               <p className="journeydesc">
-                At Shootfolio, we foster a collaborative and inclusive culture
-                where everyone's ideas and contributions are valued. We believe
-                in the power of teamwork and collaboration to achieve our goals,
-                and we strive to create an environment where everyone feels
-                heard and supported.
+              At Shootfolio, we foster a collaborative and inclusive culture where everyone's ideas and contributions are valued. We believe in the power of teamwork and collaboration to achieve our goals, and we strive to create an environment where everyone feels heard and supported.
               </p>
+              <div className="aboutculturebuttonaligncenter">
               <button className="aboutlearnmore mt-4">Learn More</button>
+              </div>
             </Col>
-            <Col md={6}></Col>
-          </Row>
-
-          <Row className="mt-5">
-            <Col md={6}></Col>
-            <Col md={6}>
-              <p className="ourjourneysofar">Mission</p>
-              <p className="journeydesc">
-                Up maids me an ample stood given. Certainty say suffering his
-                him collected intention promotion. Hill sold ham men made lose
-                case. Views abode law heard jokes too. Was are delightful
-                solicitude discovered collecting man day. Resolving neglected
-                sir tolerably but existence conveying for. Day his put off
-                unaffected literature partiality inhabiting.
-              </p>
-              <p className="journeydesc">
-                Up maids me an ample stood given. Certainty say suffering his
-                him collected intention promotion. Hill sold ham men made lose
-                case. Views abode law heard jokes too. Was are delightful
-                solicitude discovered collecting man day. Resolving neglected
-                sir tolerably but existence conveying for. Day his put off
-                unaffected literature partiality inhabiting.
-              </p>
+            <Col md={6} className="alignaboutimageend">
+              <Image className="makeimageaboutwidth100onmbl" src={images.aboutculture} width="80%"/>
             </Col>
-          </Row>
-
-          <Row className="mt-5">
-            <Col md={6}>
-              <p className="ourjourneysofar">Value</p>
-              <p className="journeydesc">
-                Up maids me an ample stood given. Certainty say suffering his
-                him collected intention promotion. Hill sold ham men made lose
-                case. Views abode law heard jokes too. Was are delightful
-                solicitude discovered collecting man day. Resolving neglected
-                sir tolerably but existence conveying for. Day his put off
-                unaffected literature partiality inhabiting.
-              </p>
-              <p className="journeydesc">
-                Up maids me an ample stood given. Certainty say suffering his
-                him collected intention promotion. Hill sold ham men made lose
-                case. Views abode law heard jokes too. Was are delightful
-                solicitude discovered collecting man day. Resolving neglected
-                sir tolerably but existence conveying for. Day his put off
-                unaffected literature partiality inhabiting.
-              </p>
-            </Col>
-            <Col md={6}></Col>
           </Row>
         </Container>
       </div>
@@ -337,15 +282,12 @@ const About = () => {
                 Celebrating <br></br>Our Achievements
               </p>
               <p className="journeydesc">
-                At Shootfolio, we take pride in our accomplishments and the
-                recognition we have received. We are grateful for the support
-                and encouragement of our clients, and we strive to maintain the
-                highest standards of excellence in everything we do.
+              At Shootfolio, we take pride in our accomplishments and the recognition we have received. We are grateful for the support and encouragement of our clients, and we strive to maintain the highest standards of excellence in everything we do.
               </p>
               <button className="aboutlearnmore mt-4">Learn More</button>
             </Col>
             <Col md={1}></Col>
-            <Col md={6} className="margin-top100-caroudel">
+            <Col md={6}>
                 <Aboutslider/>
             </Col>
           </Row>
@@ -359,19 +301,19 @@ const About = () => {
           </Row>
           <Row className="mt-5">
             <Col md={4}>
-                <Image src={images.aboutmedone} width="100%"/>
+                <Image className="aboutblogborderradius" src={images.aboutmedone} width="100%"/>
                 <p className="aboutmedhead mt-4">Dunt incididunt culpa qui officia deserunt molliest labn culpa</p>
                 <p className="aboutmeddesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                 <p className="aboutmeddate">June 14, 2017</p>
             </Col>
             <Col md={4}>
-                <Image src={images.aboutmedtwo} width="100%"/>
+                <Image className="aboutblogborderradius" src={images.aboutmedtwo} width="100%"/>
                 <p className="aboutmedhead mt-4">Dunt incididunt culpa qui officia deserunt molliest labn culpa</p>
                 <p className="aboutmeddesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                 <p className="aboutmeddate">June 14, 2017</p>
             </Col>
             <Col md={4}>
-                <Image src={images.aboutmedthree} width="100%"/>
+                <Image className="aboutblogborderradius" src={images.aboutmedthree} width="100%"/>
                 <p className="aboutmedhead mt-4">Dunt incididunt culpa qui officia deserunt molliest labn culpa</p>
                 <p className="aboutmeddesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                 <p className="aboutmeddate">June 14, 2017</p>

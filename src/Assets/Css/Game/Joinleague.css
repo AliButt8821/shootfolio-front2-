@@ -6,28 +6,112 @@
     color:#C8C8C8;
     text-align: center;
 }
+.joinleaguedescriptionhead{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height:22px;
+    color:#D9D9D9;
+    text-align: center;
+}
 .setjoinleaguepadding{
-    padding: 8% 0%;
+    background-image: url(../../images/joinleaguebg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 6% 0%;
 }
-.joinleagueform.form-check.form-check-inline {
-    background-color: #FFFFFF1F;
-    padding: 10px 20px !important;
-    color: #6A6F8D;
-    border-radius: 20px;
-
-    margin:10px 12px 10px 0px;
+.leaguebg{
+    background-color:  #FFFFFF17;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 }
-label.form-check-label{
-    cursor:pointer;
+.leaguetitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height:22px;
+    color:#D9D9D9;
+    text-align: center;
 }
-.form-check{
-    padding-left: 0rem !important;
+.categorytitleleague{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:16px;
+    color:#888B96;
 }
-.form-check-input[type=radio] {
-display: none;
+.leaguecategoryitself{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:16px;
+    color:#D9D9D9;
+}
+.leaguecategory{
+    display: flex;
+    justify-content: space-between;
+}
+.selectleaguebutton, .selectleaguebutton:hover{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color:black;
+    text-align: center;
+    border: none;
+    padding: 15px 40px;
+    background-color: rgba(42, 119, 65, 1);
+    margin-right: 10px;
+}
+.makeleaguescenterincolten{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap:nowrap;
+}
+.undercategoryleaguedesc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color:#B9BABF;
+    text-align: center;
+}
+.underjoinleaguebutton, .underjoinleaguebutton:hover{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#888B96;
+    text-align: center;
+    padding: 20px 50px;
+    background-color: #2E334E;
+    border: none;
+    border-radius: 6px;
+}
+.makeleaguebottombutcent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 @media only screen and (max-width: 700px) {
-    .setjoinleaguepadding{
-        padding: 8% 5%;
+    .makeleaguebottombutcent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .margtopleaguembl{
+        margin-top: 20px;
+    }
+    .makeleaguescenterincolten{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
     }
 }
